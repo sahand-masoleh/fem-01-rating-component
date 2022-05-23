@@ -24,9 +24,9 @@ Users should be able to:
 
 ### Screenshot
 
-![The rating state](./screenshots/desktop-rating-state.png)
-![The thank you state](./screenshots/desktop-thankyou-state.png.png)
-![Mobile view](./screenshots/mobile.png)
+![The rating state](./screenshots/desktop-rating-state.jpg)
+![The thank you state](./screenshots/desktop-thankyou-state.jpg)
+![Mobile view](./screenshots/mobile.jpg)
 
 ### Links
 
