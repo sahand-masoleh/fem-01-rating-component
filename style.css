@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	--orange: hsl(25, 97%, 53%);
+	--white: hsl(0, 0%, 100%);
+	--white-transparent: rgba(255, 255, 255, 0.05);
+	--light-grey: hsl(217, 12%, 63%);
+	--medium-grey: hsl(216, 12%, 54%);
+	--dark-blue: hsl(213, 19%, 18%);
+	--very-dark-blue: hsl(216, 12%, 8%);
+
+	min-height: 100vh;
+
+	font-family: "Cabin", sans-serif;
+	font-size: 15px;
+	color: var(--white);
+
+	--button-size: 3em;
+
+	background-color: var(--very-dark-blue);
+
+	display: grid;
+	place-items: center;
+	position: relative;
+}
+
+h2 {
+	font-weight: 700;
+	color: var(--white);
+	margin-bottom: 1em;
+}
+
+p {
+	font-weight: 400;
+	color: var(--light-grey);
+	line-height: 1.5em;
+}
+
+#card {
+	height: 60vh;
+	aspect-ratio: 1/1;
+	background-color: var(--dark-blue);
+	font-size: 2.5vh;
+	border-radius: 2em;
+}
+
+.content-container {
+	height: 100%;
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.attribution {
+	position: absolute;
+	bottom: 3px;
+	width: 100%;
+	margin: auto;
+	font-size: 11px;
+	text-align: center;
+	color: var(--medium-grey);
+}
+.attribution a {
+	color: var(--light-grey);
+}
+
+@media (max-width: 376px) {
+	#card {
+		height: 50vh;
+		font-size: 2.2vh;
+	}
+}

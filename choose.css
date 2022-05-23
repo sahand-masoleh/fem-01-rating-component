@@ -1,0 +1,54 @@
+#rating-btns-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.btns {
+	background-color: var(--white-transparent);
+	color: var(--light-grey);
+	border-radius: 50%;
+	width: var(--button-size);
+	aspect-ratio: 1/1;
+	line-height: 3em;
+	display: grid;
+	place-items: center;
+}
+
+.btns img {
+	height: 1em;
+}
+
+.rating-btns:hover:not(.selected) {
+	background-color: var(--light-grey);
+	color: var(--white);
+	cursor: pointer;
+}
+
+.rating-btns:active,
+.selected {
+	background-color: var(--orange);
+	color: var(--white);
+}
+
+#submit-btn {
+	width: 100%;
+	background-color: var(--orange);
+	color: var(--white);
+	padding: 0.75em;
+	font-weight: 700;
+	font-size: 1em;
+	letter-spacing: 0.25em;
+	border: none;
+	border-radius: 1.5em;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+#submit-btn:disabled {
+	cursor: not-allowed;
+}
+
+#submit-btn:active:not([disabled]) {
+	background-color: var(--white);
+	color: var(--orange);
+}

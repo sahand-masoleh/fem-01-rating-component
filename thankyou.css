@@ -1,0 +1,19 @@
+#thankyou {
+	align-items: center;
+}
+
+#thankyou img {
+	width: 10em;
+	height: auto;
+}
+
+#choice {
+	background-color: var(--white-transparent);
+	color: var(--orange);
+	padding: 0.2em 1.5em;
+	border-radius: 1.5em;
+}
+
+#appriciation {
+	text-align: center;
+}
