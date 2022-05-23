@@ -29,10 +29,9 @@ body {
 	position: relative;
 }
 
-h2 {
+h1 {
 	font-weight: 700;
 	color: var(--white);
-	margin-bottom: 1em;
 }
 
 p {
@@ -42,11 +41,16 @@ p {
 }
 
 #card {
-	height: 60vh;
+	height: 50vh;
 	aspect-ratio: 1/1;
 	background-color: var(--dark-blue);
-	font-size: 2.5vh;
+	font-size: 2.2vh;
 	border-radius: 2em;
+}
+
+#choose h1 {
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
 }
 
 .content-container {
@@ -68,11 +72,4 @@ p {
 }
 .attribution a {
 	color: var(--light-grey);
-}
-
-@media (max-width: 376px) {
-	#card {
-		height: 50vh;
-		font-size: 2.2vh;
-	}
 }
